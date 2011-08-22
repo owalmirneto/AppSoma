@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical">
+    
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="Digite um número"/>
+	    
+	<EditText 
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent" 
+		android:id="@+id/number1"
+		android:inputType="number"></EditText>
+		
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="Digite outro número"/>
+	    
+	<EditText 
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent" 
+		android:id="@+id/number2"
+		android:inputType="number"></EditText>
+		
+	<Button 
+		android:text="Somar" 
+		android:layout_height="wrap_content" 
+		android:id="@+id/btsomar" 
+		android:layout_width="match_parent"></Button>
+			    
+</LinearLayout>
